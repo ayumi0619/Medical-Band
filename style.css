@@ -6,6 +6,7 @@
   }
   
   body {
+    background: white;
     display: grid;
     justify-content: center;
   }
@@ -17,7 +18,7 @@
   
   h1 {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
   }
   
   footer {
@@ -42,7 +43,7 @@ nav{
   position: sticky;
   top:0;
   padding: 1rem;
-  background: #fff;
+  background: white;
 }
 
 nav ul{
@@ -51,20 +52,20 @@ nav ul{
 }
 
 nav ul li{
-  background: silver;
+  background: white;
   color:white;
   padding: 0.5rem;
   margin-right: 2rem;
 }
 
 nav a{
-  color:#fff;
+  color:#000080;
   text-decoration: none;
 }
 
 
 section{
-  background: #DDD;
+  background: white;
   margin-bottom: 2rem;
 }
 
@@ -72,7 +73,7 @@ section{
   border: 1px solid #777;
   display: flex;
   flex-direction: row;
-  width:800px;
+  width:900px;
   margin: auto;
   overflow-x: scroll;  
 }
@@ -82,5 +83,5 @@ section ul li {
 }
 
 section ul li img{
-  width:400px;
+  width:600px;
 }
