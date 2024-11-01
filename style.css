@@ -7,20 +7,24 @@
   
   body {
     background: white;
-    display: grid;
-    justify-content: center;
+    /*display: grid;
+    justify-content: center;*/
   }
   
   img {
     width: 100%;
     height: auto;
   }
-  
+
   h1 {
     text-align: center;
     padding: 20px 0;
   }
   
+  p{
+    text-align: center;
+  }
+
   footer {
     text-align: center;
   }
@@ -32,9 +36,6 @@
   
   ul {
     list-style: none;
-    /*display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr;*/
     padding-top: 10px;
     gap: 10px;
   }
@@ -73,15 +74,32 @@ section{
   border: 1px solid #777;
   display: flex;
   flex-direction: row;
-  width:900px;
+  max-width:900px;
   margin: auto;
   overflow-x: scroll;  
+}
+
+section ul.finish{
+  justify-content: center;
 }
 
 section ul li {
   margin-right: 10rem;
 }
 
+section ul.finish li{
+  margin-right: 0;
+}
+
 section ul li img{
   width:600px;
+}
+
+/*パソコン用*/
+@media screen and (min-width: 960px) {
+  .main-visual img{
+width: 80%;
+display: block;
+margin: 0 auto;
+  }
 }
