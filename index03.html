@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Band</title>
+  <link rel="stylesheet" href="stylehome.css">
+  <link href="style.css" rel="stylesheet" >
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>
+      <a href="index.html">Medical Band</a>
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index02.html">見本</a></li>
+        <li><a href="index03.html">選んでみよう</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+<p>好きなイラストと、色を選んでみてください！</p>
+  
+  <div id="selector">
+
+
+    <div class="item">
+      <p>車</p>
+      <input type="radio" name="car" value="car-pink" checked>ピンク
+      <input type="radio" name="car" value="car-kiiro">きいろ
+      <input type="radio" name="car" value="car-orange">オレンジ
+      <input type="radio" name="car" value="car-mizu">みずいろ
+      <input type="radio" name="car" value="car-ao">あお
+      <input type="radio" name="car" value="car-aka">あか
+      <input type="radio" name="car" value="car-midori">みどり
+
+      <input id="radiocar-pink" type="radio" value="radiocar-pink.png" name="image">
+      <label for="radiocar-pink"><img src="/images/radiocar-pink.jpg" with="40" height="40"></label>
+      <input id="image_b" type="radio" value="image_b.jpg" name="image">
+      <label for="image_b"><img src="/images/image_b.jpg" with="40" height="40"></label>
+      <input id="image_c" type="radio" value="image_c.jpg" name="image">
+      <label for="image_c"><img src="/images/image_c.jpg" with="40" height="40"></label>
+  
+
+    </div>
+
+    <div class="item">
+      <p>星</p>
+      <input type="radio" name="hosi" value="hosi-pink" checked>ピンク
+      <input type="radio" name="hosi" value="hosi-kiiro">きいろ
+      <input type="radio" name="hosi" value="hosi-orange">オレンジ
+      <input type="radio" name="hosi" value="hosi-mizu">みずいろ
+      <input type="radio" name="hosi" value="hosi-ao">あお
+      <input type="radio" name="hosi" value="hosi-aka">あか
+      <input type="radio" name="hosi" value="hosi-midori">みどり
+    </div>
+
+    <div class="item">
+      <p>ハート</p>
+      <input type="radio" name="heart" value="heart-pink" checked>ピンク
+      <input type="radio" name="heart" value="heart-kiiro">きいろ
+      <input type="radio" name="heart" value="heart-orange">オレンジ
+      <input type="radio" name="heart" value="heart-mizu">みずいろ
+      <input type="radio" name="heart" value="heart-ao">あお
+      <input type="radio" name="heart" value="heart-aka">あか
+      <input type="radio" name="heart" value="heart-midori">みどり
+    </div>
+
+    <div class="item">
+      <p>クローバー</p>
+      <input type="radio" name="clover" value="clover-pink" checked>ピンク
+      <input type="radio" name="clover" value="clover-kiiro">きいろ
+      <input type="radio" name="clover" value="clover-orange">オレンジ
+      <input type="radio" name="clover" value="clover-mizu">みずいろ
+      <input type="radio" name="clover" value="clover-ao">あお
+      <input type="radio" name="clover" value="clover-aka">あか
+      <input type="radio" name="clover" value="clover-midori">みどり
+    </div>
+
+    <div class="item">
+      <p>花</p>
+      <input type="radio" name="hana" value="hana-pink" checked>ピンク
+      <input type="radio" name="hana" value="hana-kiiro">きいろ
+      <input type="radio" name="hana" value="hana-orange">オレンジ
+      <input type="radio" name="hana" value="hana-mizu">みずいろ
+      <input type="radio" name="hana" value="hana-ao">あお
+      <input type="radio" name="hana" value="hana-aka">あか
+      <input type="radio" name="hana" value="hana-midori">みどり
+    </div>
+
+    <div id="stage">
+      <img id="body" src="images/dodai.png" />
+      <img id="design" src="images/heart-pink.png" />
+    </div>
+  
+    <button type="button" onclick="location.href='index.html'" class="button">HOMEへもどる</button>
+
+
+
+  </div>
+
+</body>
+
+</html>
