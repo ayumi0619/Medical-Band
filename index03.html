@@ -21,79 +21,110 @@
       <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="index02.html">見本</a></li>
-        <li><a href="index03.html">選んでみよう</a></li>
+        <li><a href="index03.html">えらんでみよう</a></li>
       </ul>
     </nav>
   </header>
 
 
-<p>好きなイラストと、色を選んでみてください！</p>
+  <section id="home">
+    <p class="home-text">
+    <ruby>好<rp>(</rp><rt>す</rt><rp>)</rp></ruby>きなイラストと、<ruby>色<rp>(</rp><rt>いろ</rt><rp>)</rp></ruby>を<ruby>選<rp>(</rp><rt>えら</rt><rp>)</rp></ruby>んでみてください！
+    </p>
   
+</section>
   <div id="selector">
 
 
     <div class="item">
+      <p>ハート</p>
+      <input id="radioheart-pink" type="radio" value="heart-pink" name="heart">
+      <label for="radioheart-pink"><img src="./images/radioheart-pink.png" width="40" height="40"></label>
+      <input id="radioheart-kiiro" type="radio" value="heart-kiiro" name="heart">
+      <label for="radioheart-kiiro"><img src="./images/radioheart-kiiro.png" width="40" height="40"></label>
+      <input id="radioheart-ao" type="radio" value="heart-ao" name="heart">
+      <label for="radioheart-ao"><img src="./images/radioheart-ao.png" width="40" height="40"></label>
+      <input id="radioheart-mizu" type="radio" value="heart-mizu" name="heart">
+      <label for="radioheart-mizu"><img src="./images/radioheart-mizu.png" width="40" height="40"></label>
+      <input id="radioheart-orange" type="radio" value="heart-orange" name="heart">
+      <label for="radioheart-orange"><img src="./images/radioheart-orange.png" width="40" height="40"></label>
+      <input id="radioheart-aka" type="radio" value="heart-aka" name="heart">
+      <label for="radioheart-aka"><img src="./images/radioheart-aka.png" width="40" height="40"></label>
+      <input id="radioheart-midori" type="radio" value="heart-midori" name="heart">
+      <label for="radioheart-midori"><img src="./images/radioheart-midori.png" width="40" height="40"></label>
+    </div>
+
+
+    <div class="item">
       <p>車</p>
-      <input type="radio" name="car" value="car-pink" checked>ピンク
-      <input type="radio" name="car" value="car-kiiro">きいろ
-      <input type="radio" name="car" value="car-orange">オレンジ
-      <input type="radio" name="car" value="car-mizu">みずいろ
-      <input type="radio" name="car" value="car-ao">あお
-      <input type="radio" name="car" value="car-aka">あか
-      <input type="radio" name="car" value="car-midori">みどり
-
-      <input id="radiocar-pink" type="radio" value="radiocar-pink.png" name="image">
-      <label for="radiocar-pink"><img src="/images/radiocar-pink.jpg" with="40" height="40"></label>
-      <input id="image_b" type="radio" value="image_b.jpg" name="image">
-      <label for="image_b"><img src="/images/image_b.jpg" with="40" height="40"></label>
-      <input id="image_c" type="radio" value="image_c.jpg" name="image">
-      <label for="image_c"><img src="/images/image_c.jpg" with="40" height="40"></label>
-  
-
+      <input id="radiocar-pink" type="radio" value="car-pink" name="car">
+      <label for="radiocar-pink"><img src="./images/radiocar-pink.png" width="40" height="40"></label>
+      <input id="radiocar-kiiro" type="radio" value="car-kiiro" name="car">
+      <label for="radiocar-kiiro"><img src="./images/radiocar-kiiro.png" width="40" height="40"></label>
+      <input id="radiocar-ao" type="radio" value="car-ao" name="car">
+      <label for="radiocar-ao"><img src="./images/radiocar-ao.png" width="40" height="40"></label>
+      <input id="radiocar-mizu" type="radio" value="car-mizu" name="car">
+      <label for="radiocar-mizu"><img src="./images/radiocar-mizu.png" width="40" height="40"></label>
+      <input id="radiocar-orange" type="radio" value="car-orange" name="car">
+      <label for="radiocar-orange"><img src="./images/radiocar-orange.png" width="40" height="40"></label>
+      <input id="radiocar-aka" type="radio" value="car-aka" name="car">
+      <label for="radiocar-aka"><img src="./images/radiocar-aka.png" width="40" height="40"></label>
+      <input id="radiocar-midori" type="radio" value="car-midori" name="car">
+      <label for="radiocar-midori"><img src="./images/radiocar-midori.png" width="40" height="40"></label>
     </div>
 
     <div class="item">
       <p>星</p>
-      <input type="radio" name="hosi" value="hosi-pink" checked>ピンク
-      <input type="radio" name="hosi" value="hosi-kiiro">きいろ
-      <input type="radio" name="hosi" value="hosi-orange">オレンジ
-      <input type="radio" name="hosi" value="hosi-mizu">みずいろ
-      <input type="radio" name="hosi" value="hosi-ao">あお
-      <input type="radio" name="hosi" value="hosi-aka">あか
-      <input type="radio" name="hosi" value="hosi-midori">みどり
-    </div>
-
-    <div class="item">
-      <p>ハート</p>
-      <input type="radio" name="heart" value="heart-pink" checked>ピンク
-      <input type="radio" name="heart" value="heart-kiiro">きいろ
-      <input type="radio" name="heart" value="heart-orange">オレンジ
-      <input type="radio" name="heart" value="heart-mizu">みずいろ
-      <input type="radio" name="heart" value="heart-ao">あお
-      <input type="radio" name="heart" value="heart-aka">あか
-      <input type="radio" name="heart" value="heart-midori">みどり
+      <input id="radiohosi-pink" type="radio" value="hosi-pink" name="hosi">
+      <label for="radiohosi-pink"><img src="./images/radiohosi-pink.png" width="40" height="40"></label>
+      <input id="radiohosi-kiiro" type="radio" value="hosi-kiiro" name="hosi">
+      <label for="radiohosi-kiiro"><img src="./images/radiohosi-kiiro.png" width="40" height="40"></label>
+      <input id="radiohosi-ao" type="radio" value="hosi-ao" name="hosi">
+      <label for="radiohosi-ao"><img src="./images/radiohosi-ao.png" width="40" height="40"></label>
+      <input id="radiohosi-mizu" type="radio" value="hosi-mizu" name="hosi">
+      <label for="radiohosi-mizu"><img src="./images/radiohosi-mizu.png" width="40" height="40"></label>
+      <input id="radiohosi-orange" type="radio" value="hosi-orange" name="hosi">
+      <label for="radiohosi-orange"><img src="./images/radiohosi-orange.png" width="40" height="40"></label>
+      <input id="radiohosi-aka" type="radio" value="hosi-aka" name="hosi">
+      <label for="radiohosi-aka"><img src="./images/radiohosi-aka.png" width="40" height="40"></label>
+      <input id="radiohosi-midori" type="radio" value="hosi-midori" name="hosi">
+      <label for="radiohosi-midori"><img src="./images/radiohosi-midori.png" width="40" height="40"></label>
     </div>
 
     <div class="item">
       <p>クローバー</p>
-      <input type="radio" name="clover" value="clover-pink" checked>ピンク
-      <input type="radio" name="clover" value="clover-kiiro">きいろ
-      <input type="radio" name="clover" value="clover-orange">オレンジ
-      <input type="radio" name="clover" value="clover-mizu">みずいろ
-      <input type="radio" name="clover" value="clover-ao">あお
-      <input type="radio" name="clover" value="clover-aka">あか
-      <input type="radio" name="clover" value="clover-midori">みどり
+      <input id="radioclover-pink" type="radio" value="clover-pink" name="clover">
+      <label for="radioclover-pink"><img src="./images/radioclover-pink.png" width="40" height="40"></label>
+      <input id="radioclover-kiiro" type="radio" value="clover-kiiro" name="clover">
+      <label for="radioclover-kiiro"><img src="./images/radioclover-kiiro.png" width="40" height="40"></label>
+      <input id="radioclover-ao" type="radio" value="clover-ao" name="clover">
+      <label for="radioclover-ao"><img src="./images/radioclover-ao.png" width="40" height="40"></label>
+      <input id="radioclover-mizu" type="radio" value="clover-mizu" name="clover">
+      <label for="radioclover-mizu"><img src="./images/radioclover-mizu.png" width="40" height="40"></label>
+      <input id="radioclover-orange" type="radio" value="clover-orange" name="clover">
+      <label for="radioclover-orange"><img src="./images/radioclover-orange.png" width="40" height="40"></label>
+      <input id="radioclover-aka" type="radio" value="clover-aka" name="clover">
+      <label for="radioclover-aka"><img src="./images/radioclover-aka.png" width="40" height="40"></label>
+      <input id="radioclover-midori" type="radio" value="clover-midori" name="clover">
+      <label for="radioclover-midori"><img src="./images/radioclover-midori.png" width="40" height="40"></label>
     </div>
 
     <div class="item">
       <p>花</p>
-      <input type="radio" name="hana" value="hana-pink" checked>ピンク
-      <input type="radio" name="hana" value="hana-kiiro">きいろ
-      <input type="radio" name="hana" value="hana-orange">オレンジ
-      <input type="radio" name="hana" value="hana-mizu">みずいろ
-      <input type="radio" name="hana" value="hana-ao">あお
-      <input type="radio" name="hana" value="hana-aka">あか
-      <input type="radio" name="hana" value="hana-midori">みどり
+      <input id="radiohana-pink" type="radio" value="hana-pink" name="hana">
+      <label for="radiohana-pink"><img src="./images/radiohana-pink.png" width="40" height="40"></label>
+      <input id="radiohana-kiiro" type="radio" value="hana-kiiro" name="hana">
+      <label for="radiohana-kiiro"><img src="./images/radiohana-kiiro.png" width="40" height="40"></label>
+      <input id="radiohana-ao" type="radio" value="hana-ao" name="hana">
+      <label for="radiohana-ao"><img src="./images/radiohana-ao.png" width="40" height="40"></label>
+      <input id="radiohana-mizu" type="radio" value="hana-mizu" name="hana">
+      <label for="radiohana-mizu"><img src="./images/radiohana-mizu.png" width="40" height="40"></label>
+      <input id="radiohana-orange" type="radio" value="hana-orange" name="hana">
+      <label for="radiohana-orange"><img src="./images/radiohana-orange.png" width="40" height="40"></label>
+      <input id="radiohana-aka" type="radio" value="hana-aka" name="hana">
+      <label for="radiohana-aka"><img src="./images/radiohana-aka.png" width="40" height="40"></label>
+      <input id="radiohana-midori" type="radio" value="hana-midori" name="hana">
+      <label for="radiohana-midori"><img src="./images/radiohana-midori.png" width="40" height="40"></label>
     </div>
 
     <div id="stage">
@@ -101,7 +132,7 @@
       <img id="design" src="images/heart-pink.png" />
     </div>
   
-    <button type="button" onclick="location.href='index.html'" class="button">HOMEへもどる</button>
+
 
 
 
