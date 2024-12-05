@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@
 
 body {
   background: white;
-
+  font-family: "M PLUS 1p", sans-serif;
 }
 
 header {
@@ -26,6 +28,11 @@ header h1 {
   background: white;
 }
 
+.header-logo {
+  width: 200px;
+  height: auto;
+}
+
 img {
   /* width: 100%;*/
   height: auto;
@@ -37,9 +44,18 @@ p {
 
 .home-text {
   font-size: 1.8rem;
-
+  margin-top: -35px;
 }
 
+.home-text.center {
+  text-align: center;
+  margin: 50px;
+}
+
+.home-text.center02 {
+  text-align: center;
+  margin:  300px;
+}
 
 footer {
   text-align: center;
@@ -267,6 +283,7 @@ div#gallery {
 .img-item p {
   margin: auto;
   text-align: center;
+  margin-top: -80px;
 }
 
 /* 未選択の場合、色を薄くする */
@@ -279,9 +296,6 @@ div#gallery {
 }
 
 
-.home-text {
-  margin: auto;
-}
 
 footer {
   text-align: center;
