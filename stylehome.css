@@ -34,10 +34,8 @@ header h1 {
 }
 
 img {
-  /* width: 100%;*/
   height: auto;
   margin: auto;
-
 }
 
 p {
@@ -54,6 +52,10 @@ p {
   margin: 50px;
 }
 
+.home-text.center02 {
+  text-align: center;
+  margin-top: -90px;
+}
 
 footer {
   text-align: center;
@@ -96,10 +98,11 @@ section {
   margin-bottom: 2rem;
 }
 
-/*#home {
-  max-width: 800px;
-  margin: 0 auto;
-}*/
+
+.index03 #home {
+  height: 400px;
+}
+
 
 a,
 a:hover,
@@ -180,9 +183,6 @@ a:visited {
   box-sizing: border-box;
 }
 
-.index03 .button-area {
-  margin-top: 400px;
-}
 
 .button02 {
   display: block;
@@ -273,6 +273,22 @@ a:visited {
   margin: auto;
 }
 
+.swiper{
+  width: 80%;
+  margin: auto;
+}
+
+.swiper img {
+width: 100%;
+padding: 50px;
+box-sizing: border-box;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #0400aa;
+}
+
 /*パソコン用*/
 @media screen and (min-width: 960px) {
   .inner {
@@ -288,37 +304,11 @@ a:visited {
 
 }
 
-div#gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/*index03のCSS*/
-
-
-#gallery {
-  display: grid;
-  max-width: 1000px;
-  margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
 
 .img-item {
   opacity: 100;
   /* filter: blur(10px);*/
   width: 100%;
-}
-
-.img-item img {
-  width: 100%;
-  height: auto;
-}
-
-.img-item p {
-  margin: auto;
-  text-align: center;
-  margin-top: -80px;
 }
 
 /* 未選択の場合、色を薄くする */
